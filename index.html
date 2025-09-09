@@ -78,6 +78,42 @@
   </style>
 </head>
 <body>
+  <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/923305075559" 
+   class="whatsapp-float" 
+   target="_blank" 
+   title="Chat on WhatsApp">
+   💬
+</a>
+
+<style>
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 28px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  z-index: 100;
+  line-height: 60px;
+  text-decoration: none;
+  animation: pulse 2s infinite;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+</style>
+
 
   <header>
     <h1>Dr. Khurram</h1>
@@ -174,3 +210,4 @@
 
 </body>
 </html>
+
